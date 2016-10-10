@@ -16,6 +16,7 @@ post('/cv/create') do
 	@mail.email = params['email']
 	@mail.content = params['content']
 	store.save(@mail)
+	erb :show
 	
 end
 get('/cv/:id') do
