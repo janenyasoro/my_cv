@@ -1,0 +1,7 @@
+---
+janenyasoro@gmail.com: !ruby/object:Mail
+  email: janenyasoro@gmail.com
+  content: ruby at first
+ombinja@yahoo.com: !ruby/object:Mail
+  email: ombinja@yahoo.com
+  content: find attached my cv

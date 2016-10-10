@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8" />
+   <title>My Mail - <%= @mail.email %></title>
+  </head>
+  <body>
+  	<h1><%= @mail.email %></h1>
+  	<table>
+  	 <tr>
+  	  <td><strong>Email:</strong></td>
+  	  <td><%= @mail.email %></td>
+  	 </tr>
+  	 <tr>
+  	   <td><strong>Content:</strong></td>
+  	   <td><%= @mail.content %></td>
+  	 </tr>
+  	</table>
+  	<a href="/mail">Back  to Index</a>
+
+
+   </body>
+</html>

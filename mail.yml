@@ -1,0 +1,25 @@
+---
+1: !ruby/object:Mail
+  email: janenyasoro@gmail.com
+  content: hey there
+  id: 1
+2: !ruby/object:Mail
+  email: janenyasoro@gmail.com
+  content: jane likes  this
+  id: 2
+3: !ruby/object:Mail
+  email: tracey@gmail.com
+  content: this is africa
+  id: 3
+4: !ruby/object:Mail
+  email: janenyasoro@gmail.com
+  content: nairobi
+  id: 4
+5: !ruby/object:Mail
+  email: third
+  content: third
+  id: 5
+6: !ruby/object:Mail
+  email: fourth
+  content: fourth
+  id: 6
